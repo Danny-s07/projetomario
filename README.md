@@ -6,6 +6,7 @@
 
 ## Sobre o Projeto
 * Feito como se fosse uma page de stream , a partir de uma semana de aulas com o DEVEMDOBRO
+* Ele pode ser visto nesse link : https://danny-s07.github.io/projetomario/
 
 ## Layout do projeto
 ![meusite01](https://user-images.githubusercontent.com/97040972/213915879-004fae6e-0ecc-4d18-a93d-72a3cf7ae2a9.JPG)
