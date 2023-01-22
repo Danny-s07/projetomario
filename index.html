@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- inicio colocar um incon do lado do titulo da pagina no navegador -->
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+    <!-- final colocar um incon do lado do titulo da pagina no navegador -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>Super Mario - Clone</title>
+</head>
+<body>
+    <div class="fundo-video">
+        <!-- autoplay-rodar o video assim que carrega a pagina, loop-rodar direto, muted-sem som  -->
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/logo-chapeu-mario.png" alt="logo chapeu mario">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img  class="imagem-titulo" src="./src/imagens/titulo.png" alt="imagem do titulo do filme">
+            
+            <p class="descricao">
+                Mario é um encanador junto com o seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quis, quos sit aliquam unde minus explicabo magnam nemo esse, reiciendis neque obcaecati error ullam magni molestiae culpa dicta qui. Fugit.
+            </p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="mario" src="./src/imagens/super-mario-chars.png" alt="">
+        <!-- inicio criar um modal para o botao de exibir o trailher qd clicar no bt -->
+            <div class="modal">
+                <div class="conteudo-modal">
+                    <span class="fechar-modal">X</span>
+                    <iframe  id="video" width="560" height="315" src="https://www.youtube.com/embed/UvDvAv0qvRM"  frameborder="1"title="trailer official" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        <!-- final criar um modal para o botao de exibir o trailher qd clicar no bt -->
+    </main>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
